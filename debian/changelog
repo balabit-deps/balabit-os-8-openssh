@@ -1,3 +1,12 @@
+openssh (1:8.2p1-4ubuntu0.12) focal-security; urgency=medium
+
+  * SECURITY UPDATE: MitM with VerifyHostKeyDNS option
+    - debian/patches/CVE-2025-26465.patch: fix error code handling in
+      krl.c, ssh-agent.c, ssh-sk-client.c, sshconnect2.c, sshsig.c.
+    - CVE-2025-26465
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 11 Feb 2025 09:09:35 -0500
+
 openssh (1:8.2p1-4ubuntu0.11) focal-security; urgency=medium
 
   * SECURITY UPDATE: Supplemental groups not initialized
