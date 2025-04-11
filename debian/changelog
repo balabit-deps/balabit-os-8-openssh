@@ -1,3 +1,11 @@
+openssh (1:8.2p1-4ubuntu0.13) focal-security; urgency=medium
+
+  * SECURITY UPDATE: incorrect DisableForwarding directive behaviour
+    - debian/patches/CVE-2025-32728.patch: fix logic error in session.c.
+    - CVE-2025-32728
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 11 Apr 2025 08:16:08 -0400
+
 openssh (1:8.2p1-4ubuntu0.12) focal-security; urgency=medium
 
   * SECURITY UPDATE: MitM with VerifyHostKeyDNS option
